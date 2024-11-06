@@ -1,0 +1,102 @@
+    
+    .row-optimize{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .profile-section{
+        padding: 2rem 10px;
+        align-items: center;
+        *{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .profile-image{
+            width: 280px;
+        }
+        .username{
+            display: flex;
+            justify-content: center;
+            font-family: "Vazir-Medium";
+        }
+        .last-seen{
+            display: flex;
+            justify-content: center;
+            font-family: "Vazir-Medium";
+        }
+        .qub-iv{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .option-profile{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            font-family: "Vazir-Light";
+            padding: 10px 0;
+            .basket-profile{
+                border-radius: 50px;
+                background-color: #000;
+                padding: 10px 0;
+                border: 1px solid black;
+                outline: none;
+                text-align: center;
+                a{
+                    color: white;
+                    padding: 10px 115px;
+                    font-size: 14px;
+                }
+            }
+            .setting-profile{
+                border-radius: 50px;
+                background-color: #000;
+                border: 1px solid black;
+                padding: 10px 0;
+                outline: none;
+                text-align: center;
+                a{
+                    padding: 10px 115px;
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .change-profile{
+                border-radius: 50px;
+                background-color: #000;
+                border: 1px solid black;
+                padding: 10px 0;
+                outline: none;
+                text-align: center;
+                a{
+                    padding: 10px 115px;
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+            .signout{
+                border-radius: 50px;
+                background-color: #000;
+                border: 1px solid black;
+                padding: 10px 0;
+                outline: none;
+                text-align: center;
+                a{
+                    padding: 10px 115px;
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+        }
+        .button-hover{
+         transition: all 0.2s;   
+        }
+        .button-hover:hover{
+            background-color: #ffffff;
+            a{
+                color: black;
+            }
+        }
+    }

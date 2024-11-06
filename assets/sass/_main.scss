@@ -1,0 +1,311 @@
+main {}
+
+.listitems-bar-component {
+    margin: 2rem 0;
+    font-family: "Vazir-Medium";
+    .swiper-custom{
+        border: 4px solid black !important;
+        margin: 1rem 0;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    color: rgb(96 125 139);
+    .swiper-slide{
+        font-size: 13px !important;
+    }
+}
+.ads-col-compnent{
+    img{
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}
+.phone-view-container-fluid{
+    position: relative;
+    .phone-view-activity{
+        font-family: "Vazir-Regular";
+        border: 3px solid rgba(0, 0, 0, 0.226);
+        border-radius: 15px;
+        overflow: hidden;
+        h5{
+            font-family: "Vazir-Medium";
+        }
+        .deatail-phone-view{
+            display: flex;
+            gap: 25px;
+            padding: 1rem;
+            span{
+                display: inline-block;
+                border-left: 1px solid rgba(0, 0, 0, 0.322);
+                height: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            h5{
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+        }
+        .product{
+            text-align: center;
+         
+        }
+        .detain-product{
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: .875rem;
+                line-height: 1.25rem;
+                
+            }
+        }
+        .product-store{
+                color: rgb(119 119 119);
+        }
+    }
+    .swiperPhone {
+        overflow: visible;
+    }
+    .all-pageingation{
+        position: absolute;
+    left: 0px;
+    top: 0;
+        .swiper-button-next{
+            position: absolute;
+            top: -25px !important;
+            left: 17px !important;
+            background-color: #263238;
+            padding: 0px 25px !important;
+        }
+        .swiper-button-prev{
+                 position: absolute;
+                 right: -120px;
+                 top: -25px !important;
+                 padding: 0px 25px !important;
+                 background-color: #263238;
+        }
+        .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+            font-size: 14px;
+            color: white;
+        }
+        .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+           font-size: 14px;
+           color: white;
+        }
+    }
+
+}
+.samsung-banner{
+    img{
+        width: 100%;
+        border-radius: 15px;
+    }
+}
+.product-experinec-container-fluid{
+    position: relative;
+    .phone-view-activity{
+        font-family: "Vazir-Medium";
+        border: 3px solid rgba(0, 0, 0, 0.226);
+        border-radius: 15px;
+        overflow: hidden;
+        .deatail-phone-view{
+            display: flex;
+            gap: 25px;
+            padding: 1rem;
+            h5{
+                font-family: "Vazir-Medium";
+            }
+            span{
+                display: inline-block;
+                border-left: 1px solid rgba(0, 0, 0, 0.322);
+                height: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            h5{
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+        }
+        .product{
+            text-align: center;
+         
+        }
+        .detain-product{
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: .875rem;
+                line-height: 1.25rem;
+            }
+        }
+        .product-store{
+                color: rgb(119 119 119);
+                .change{
+                    font-size: 14px;
+                }
+        }
+    }
+    .swiperPhone {
+        overflow: visible;
+    }
+    .all-pageingation{
+        position: absolute;
+    left: 0px;
+    top: 0;
+        .swiper-button-next{
+            position: absolute;
+            top: -25px !important;
+            left: 17px !important;
+            background-color: #263238;
+            padding: 0px 25px !important;
+        }
+        .swiper-button-prev{
+                 position: absolute;
+                 right: -120px;
+                 top: -25px !important;
+                 padding: 0px 25px !important;
+                 background-color: #263238;
+        }
+        .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+            font-size: 14px;
+            color: white;
+        }
+        .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+           font-size: 14px;
+           color: white;
+        }
+    }
+}
+
+.new-brand-samsung{
+    img{
+        max-width: 100%;
+        border-radius: 6px;
+    }
+}
+.vblog-component{
+    position: relative;
+    .phone-view-activity{
+        font-family: "Vazir-Regular";
+        border: 3px solid rgba(0, 0, 0, 0.226);
+        border-radius: 15px;
+        overflow: hidden;
+        h5{
+            font-family: "Vazir-Medium";
+        }
+        .deatail-phone-view{
+            display: flex;
+            gap: 25px;
+            padding: 1rem;
+            span{
+                display: inline-block;
+                border-left: 1px solid rgba(0, 0, 0, 0.322);
+                height: 25px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            h5{
+                margin: 0;
+            }
+            p{
+                margin: 0;
+            }
+        }
+        .product{
+            text-align: center;
+            min-height: 205px;
+            overflow: hidden;
+        }
+        .detain-product{
+            margin: 0;
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: .875rem;
+                line-height: 1.25rem;
+                padding:5px;
+            }
+        }
+        .product-store{
+                color: rgb(119 119 119);
+        }
+    }
+    .vblog {
+        overflow: visible;
+    }
+    .all-pageingation{
+        position: absolute;
+    left: 0px;
+    top: 0;
+        .swiper-button-next{
+            position: absolute;
+            top: -25px !important;
+            left: 17px !important;
+            background-color: #263238;
+            padding: 0px 25px !important;
+        }
+        .swiper-button-prev{
+                 position: absolute;
+                 right: -120px;
+                 top: -25px !important;
+                 padding: 0px 25px !important;
+                 background-color: #263238;
+        }
+        .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+            font-size: 14px;
+            color: white;
+        }
+        .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+           font-size: 14px;
+           color: white;
+        }
+    }
+
+}
+.prove-before-footer{
+    font-family: "Vazir-Medium";
+    padding: 0 2%;
+    .slx{
+        border-radius: 14px;
+        padding: 2% 0 ;
+        .row-component{
+            flex-wrap: wrap;
+            display: flex;
+        }
+    }
+    .content-prove{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        img{
+            width: 60px;
+        }
+        h5{
+            margin: 0;
+            font-size: 15px;
+        }
+        p{
+            margin: 0;
+            font-size: 14px;
+            font-family: "Vazir-Light";
+        }
+    }
+}
+
+
+
+@media(min-width:768px) {
+    
+}
